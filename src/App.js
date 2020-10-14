@@ -1,10 +1,10 @@
 import React from "react";
 import Admin from "./Admin/index";
-import Dashboard from "./Admin/Dashboard/index";
-import RegisterShop from "./Admin/RegisterShop/index";
-import Inventory from "./Admin/Inventory/index";
-import User from "./User/index";
-import Cart from "./User/Cart/index";
+import Dashboard from "./Admin/Dashboard";
+import RegisterShop from "./Admin/RegisterShop";
+import Inventory from "./Admin/Inventory";
+import User from "./User";
+import Cart from "./User/Cart";
 import AdminLogin from "./Admin/Login/AdminLogin";
 import Login from "./User/Login/Login";
 import Register from "./User/Login/Register";
@@ -17,7 +17,6 @@ import "leaflet/dist/leaflet.css";
 import "esri-leaflet-geocoder/dist/esri-leaflet-geocoder.css";
 import "leaflet/dist/leaflet.js";
 import "esri-leaflet-geocoder/dist/esri-leaflet-geocoder.js";
-// import "materialize-css/dist/css/materialize.min.css";
 
 import { Provider } from "react-redux";
 import store from "./redux/store";
