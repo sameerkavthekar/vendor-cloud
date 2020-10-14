@@ -1,15 +1,12 @@
 import React from "react";
 import Header from "../Header";
 import MUIDataTable from "mui-datatables";
-import IconButton from "@material-ui/core/IconButton";
-import Button from "@material-ui/core/Button";
-import Grid from "@material-ui/core/Grid";
-import EditIcon from "@material-ui/icons/Edit";
+import {IconButton, Button, Grid} from "@material-ui/core"
 import { blue, green } from "@material-ui/core/colors";
 import { createMuiTheme, MuiThemeProvider } from "@material-ui/core/styles";
 import EditProduct from "./EditProduct";
 import AddProduct from "./AddProduct";
-import { Add } from "@material-ui/icons";
+import { Add, Edit } from "@material-ui/icons";
 import axios from "axios";
 import { connect } from "react-redux";
 
