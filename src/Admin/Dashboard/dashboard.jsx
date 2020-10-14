@@ -1,7 +1,7 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import {Accordion, AccordionDetails, AccordionSummary, Typography, Table, TableBody, TableCell, TableContainer, TableRow, Paper, Grid, makeStyles} from "@material-ui/core"
-import ExpandMore from "@material-ui/icons";
+import {Accordion, AccordionDetails, AccordionSummary, Typography, Table, TableHead, TableBody, TableCell, TableContainer, TableRow, Paper, Grid} from "@material-ui/core"
+import {ExpandMore} from "@material-ui/icons";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -74,7 +74,7 @@ export default function ControlledAccordions() {
                 style={{ margin: "0.5rem" }}
               >
                 <AccordionSummary
-                  expandIcon={<ExpandMoreIcon />}
+                  expandIcon={<ExpandMore />}
                   aria-controls="panel1bh-content"
                   id="panel1bh-header"
                 >

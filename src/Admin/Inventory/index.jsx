@@ -103,7 +103,7 @@ class Inventory extends React.Component {
           customBodyRenderLite: (dataIndex) => {
             return (
               <IconButton onClick={() => this.handleEditClick(dataIndex)}>
-                <EditIcon style={{ color: blue[500] }} />
+                <Edit style={{ color: blue[500] }} />
               </IconButton>
             );
           },
