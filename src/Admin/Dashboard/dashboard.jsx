@@ -7,18 +7,6 @@ const useStyles = makeStyles((theme) => ({
   root: {
     width: "100%",
   },
-  heading: {
-    fontSize: theme.typography.pxToRem(15),
-    flexBasis: "33.33%",
-    flexShrink: 0,
-  },
-  secondaryHeading: {
-    fontSize: theme.typography.pxToRem(15),
-    color: theme.palette.text.secondary,
-  },
-  table: {
-    width: `calc(100%)`,
-  },
   headertable: {
     backgroundColor: "#e6f0ff",
   },
@@ -78,10 +66,13 @@ export default function ControlledAccordions() {
                   aria-controls="panel1bh-content"
                   id="panel1bh-header"
                 >
+                  <Grid container justify="space-between">
                   <Typography className={classes.heading}>{name}</Typography>
                   <Typography className={classes.secondaryHeading}>
                     {address}
                   </Typography>
+                  </Grid>
+                  
                 </AccordionSummary>
                 <AccordionDetails>
                   <Typography>
